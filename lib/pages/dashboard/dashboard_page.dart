@@ -85,7 +85,7 @@ class _DashboardPageState extends State<DashboardPage> {
       ),floatingActionButton: FloatingActionButton(onPressed: (){
 
     },child:
-    Icon(Icons.add_box),backgroundColor: Colors.green,),
+    Icon(Icons.add_box,color: Colors.green,),backgroundColor: Colors.green.shade700,),
 
 
     );
